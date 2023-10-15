@@ -12,7 +12,7 @@ let ``Part 1 Sample input`` (input, expectedResult) =
 
 [<Fact>]
 let ``Part 1 My input`` () =
-    let input = InputReader.readInput "day1.txt"
+    let input = InputReader.readInput 1
 
     Assert.Equal(74198, solvePartOne input)
 
@@ -23,6 +23,6 @@ let ``Part 2 Sample input`` (input, expectedResult) =
 
 [<Fact>]
 let ``Part 2 My input`` () =
-    let input = InputReader.readInput "day1.txt"
+    let input = InputReader.readInput 1
 
     Assert.Equal(209914, solvePartTwo input)
