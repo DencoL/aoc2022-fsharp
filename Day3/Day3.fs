@@ -1,7 +1,6 @@
 ﻿module Day3
 
 open System
-open Common
 
 let private getItemsPrioritySum items =
     let lowerPriorityBoundary = ('a' |> int) - 1
